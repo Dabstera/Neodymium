@@ -21,7 +21,7 @@ nav a{
     text-decoration: none;
     color: white;
 }
-figure{
+#social{
     width: 35px;
 height: 35px;
 flex-shrink: 0;
@@ -29,5 +29,22 @@ flex-shrink: 0;
 }
 footer p{
     padding-left: 150px;
+
+}
+video{
+    width: 500px;
+    height: 300px;
+    flex-shrink: 0;
+    padding-left: 500px;
+}
+#team{
+    width: 250px;
+    height: 150px;
+    flex-shrink: 0;
+    padding-left: 180px;
+}
+#footertext{
+    width: 1920px;
+    height: 329px;
 
 }
