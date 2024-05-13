@@ -14,13 +14,15 @@ color:white;
 
 }
 #Rectangle_1{
-    position: absolute;
+    position: fixed;
     right: 50%;
     top: -20px;
 width: fit-content;
+z-index: 2;
 }
 #Rectangle_2{
-    position: absolute;
+    z-index: 2;
+    position: fixed;
     left: 50%;
     top: -20px;
 width: fit-content;
@@ -36,6 +38,10 @@ background: linear-gradient(0deg, rgba(230, 255, 148, 0.88) 92.9%, rgba(111, 193
 nav a{
     text-decoration: none;
     color: white;
+    z-index: 1;
+    position: fixed;
+    right: 10px;
+    top: 20px;
 }
 
 figure{
