@@ -98,10 +98,6 @@ figure{
 height: 35px;
 flex-shrink: 0;
 }
-footer p{
-    padding-left: 150px;
-}
-
 
 .gallery{
 
@@ -158,6 +154,7 @@ video{
     position: relative;
     bottom: 50px;
     color: white;
+    right: 15px;
 }
 h2{
     text-align: center;
@@ -186,7 +183,7 @@ position: relative;
     height: 60px;
     position: relative;
     top: 250px;
-    left: 450px;
+    left: 375px;
 }
 .social img{
 margin: 0 80px;
