@@ -8,7 +8,11 @@ body{
     overflow-x: hidden;
     text-align: center;
     position: relative;
-    top: 170px;
+    
+}
+main{
+
+    margin-top: 170px;
 }
 header{
 height: 81px;
@@ -40,7 +44,6 @@ width: 200px;
 }
 
 #index{
-    position: relative;
     bottom: 500px;
     right: 300px;
 }
