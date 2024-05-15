@@ -4,7 +4,7 @@ body{
     width: 1340px;
     height: auto;
     flex-shrink: 0; 
-    background: linear-gradient(180deg, #40A578 21.4%, #57B37D 44.9%);
+    background: #F8C794;
     overflow-x: hidden;
     text-align: center;
     position: relative;
@@ -54,7 +54,7 @@ footer{
     width: 1920px;
 height: 329px;
 flex-shrink: 0;
-background: linear-gradient(0deg, rgba(230, 255, 148, 0.88) 92.9%, rgba(111, 193, 129, 0.88) 100%);
+background: #1E2553;
 font-family: "Josefin Sans";
 position: relative;
 top: 180px;
@@ -131,10 +131,11 @@ video{
     height: auto;
     position: relative;
     bottom: 50px;
+    color: white;
 }
 h2{
     text-align: center;
-    color: white;
+    color: black;
 }
 .Images{
     width: 600px;
@@ -166,7 +167,7 @@ margin: 0 80px;
 border-radius: 20%;
 }
 .about{
-    color: white;
+    color: black;
 display: grid;
 grid-template-columns: repeat(4, 2fr);
 position: relative;
