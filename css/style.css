@@ -101,7 +101,9 @@ figure{
 height: 35px;
 flex-shrink: 0;
 }
-
+footer p{
+    padding-left: 150px;
+}
 
 
 .gallery{
@@ -136,10 +138,12 @@ line-height: normal;
 
 }
 video{
-    width: 500px;
-    height: 300px;
+    width: 800px;
+    height: auto;
     flex-shrink: 0;
-    padding-left: 100px;
+    margin-left: 100px;
+    border-radius: 20px;
+    border: 15px solid #1E2553;
 }
 #team{
     
@@ -187,7 +191,7 @@ position: relative;
     width: 130px;
     height: 60px;
     position: relative;
-    top: 150px;
+    top: 250px;
     left: 375px;
 }
 .social img{
@@ -203,5 +207,6 @@ left: 220px;
 top: 100px;
 
 }
+
 
 
