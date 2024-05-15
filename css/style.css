@@ -16,7 +16,7 @@ body{
 }
 main{
 
-    margin-top: 170px;
+    margin-top: 100px;
 }
 header{
 height: 81px;
@@ -41,6 +41,15 @@ z-index: 1;
 width: fit-content;
 
 }
+#Rectangle_1:hover, header:has(#Index:hover) #Rectangle_1 {
+width: 50vw;
+
+}
+#Rectangle_2:hover, header:has(a:hover) #Rectangle_2 {
+    width: 50vw;
+ 
+    left: 40%;;
+    }
 
 #Index img{
 
@@ -148,8 +157,8 @@ video{
 }
 #team{
     
-    width: 250px;
-    height: 150px;
+    width: 350px;
+    height: auto;
     flex-shrink: 0;
     padding-left: 180px;
 
@@ -216,5 +225,22 @@ top: 100px;
 
 }
 
+p{
+    color: rgba(0, 0, 0, 0.80);
 
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#text{
+
+    width: 350px;
+    position: relative;
+    top: 45px;
+    left: 30px;
+    text-align: left;
+}
 
