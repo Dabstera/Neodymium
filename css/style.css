@@ -35,9 +35,14 @@ width: fit-content;
 }
 
 #Index img{
-right: 300px;
+
 width: 200px;
- bottom: 50px;
+}
+
+#index{
+    position: relative;
+    bottom: 500px;
+    right: 300px;
 }
 
 
@@ -55,10 +60,7 @@ nav a{
     color: white;
     z-index: 2;
     position: fixed;
-   margin-right: 30px;
-   margin-left: 30px;
-   padding-left: 30px;
-   padding-right: 30px;
+   
 }
 
 figure{
