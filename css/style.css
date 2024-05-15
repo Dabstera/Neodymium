@@ -101,9 +101,7 @@ figure{
 height: 35px;
 flex-shrink: 0;
 }
-footer p{
-    padding-left: 150px;
-}
+
 
 
 .gallery{
@@ -189,7 +187,7 @@ position: relative;
     width: 130px;
     height: 60px;
     position: relative;
-    top: 250px;
+    top: 150px;
     left: 375px;
 }
 .social img{
