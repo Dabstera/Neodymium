@@ -1,11 +1,12 @@
 
 
 body{
-    width: 1920px;
-    height: 1836px;
+    width: 1340px;
+    height: auto;
     flex-shrink: 0; 
     background: linear-gradient(180deg, #40A578 21.4%, #57B37D 44.9%);
     overflow-x: hidden;
+    text-align: center;
 }
 header{
 height: 81px;
@@ -99,8 +100,8 @@ video{
     padding-left: 180px;
 }
 #footertext{
-    width: 1920px;
-    height: 329px;
+    width: 1440px;
+    height: auto;
 
 
 }
