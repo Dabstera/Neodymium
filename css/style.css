@@ -5,7 +5,6 @@ body{
     height: 1836px;
     flex-shrink: 0; 
     background: linear-gradient(180deg, #40A578 21.4%, #57B37D 44.9%);
-    text-align: center;
     overflow-x: hidden;
 }
 header{
@@ -35,6 +34,7 @@ footer{
 height: 329px;
 flex-shrink: 0;
 background: linear-gradient(0deg, rgba(230, 255, 148, 0.88) 92.9%, rgba(111, 193, 129, 0.88) 100%);
+font-family: "Josefin Sans";
 }
 nav a{
     text-decoration: none;
@@ -103,5 +103,25 @@ video{
     height: 329px;
 
 
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.Images{
+    width: 600px;
+height: 465px;
+flex-shrink: 0;
+border-radius: 72px;
+display: grid;
+grid-template-columns: repeat(2, 1fr); 
+grid-gap: 100px; 
+position: relative;
+}
+.container{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
 }
 
