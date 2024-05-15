@@ -34,13 +34,6 @@ width: fit-content;
 
 }
 
-#Index img{
-right: 300px;
-width: 200px;
- bottom: 50px;
-}
-
-
 footer{
     width: 1920px;
 height: 329px;
@@ -145,6 +138,28 @@ position: relative;
     justify-content: center; 
     align-items: center; 
     height: 100vh;
+}
+.social{
+    display: flex;
+    flex-shrink: 0;
+    width: 130px;
+    height: 60px;
+    position: relative;
+    top: 250px;
+    left: 450px;
+}
+.social img{
+margin: 0 80px;
+border-radius: 20%;
+}
+.about{
+    color: white;
+display: grid;
+grid-template-columns: repeat(4, 2fr);
+position: relative;
+left: 220px;
+top: 100px;
+
 }
 
 
