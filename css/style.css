@@ -1,4 +1,7 @@
-
+*{
+margin: 0;
+padding: 0;
+}
 
 body{
     width: 1340px;
@@ -40,7 +43,7 @@ width: fit-content;
 
 #Index img{
 
-width: 200px;
+width: 175px;
 z-index: 2;
 position:fixed;
 left: 200px;
@@ -53,7 +56,7 @@ top:-25px;
     position: fixed;
     margin-left: 60px;
     right: 30%;
-    top: 25px;
+    top: 20px;
     
 }
 #contact{
@@ -61,7 +64,7 @@ top:-25px;
     position: fixed;
     margin-left: 60px;
     right: 10%;
-    top: 25px;
+    top: 20px;
 
 }
 
@@ -69,13 +72,13 @@ top:-25px;
 
 
 footer{
-    width: 1920px;
-height: 329px;
+    width: 100vw;
+height: 229px;
 flex-shrink: 0;
 background: #1E2553;
 font-family: "Josefin Sans";
 position: relative;
-top: 180px;
+top: 280px;
 }
 nav a{
     text-decoration: none;
@@ -98,6 +101,10 @@ figure{
 height: 35px;
 flex-shrink: 0;
 }
+footer p{
+    padding-left: 150px;
+}
+
 
 .gallery{
 
