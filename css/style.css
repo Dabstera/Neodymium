@@ -4,13 +4,14 @@ padding: 0;
 }
 
 body{
-    width: 1340px;
+    max-width: 1340px;
     height: auto;
     flex-shrink: 0; 
     background: #F8C794;
     overflow-x: hidden;
     text-align: center;
     position: relative;
+    
     
 }
 main{
@@ -183,7 +184,7 @@ position: relative;
     display: flex;
     justify-content: center; 
     align-items: center; 
-    height: 100vh;
+    height: 25vh;
 }
 .social{
     display: flex;
