@@ -7,6 +7,8 @@ body{
     background: linear-gradient(180deg, #40A578 21.4%, #57B37D 44.9%);
     overflow-x: hidden;
     text-align: center;
+    position: relative;
+    top: 170px;
 }
 header{
 height: 81px;
@@ -45,6 +47,8 @@ height: 329px;
 flex-shrink: 0;
 background: linear-gradient(0deg, rgba(230, 255, 148, 0.88) 92.9%, rgba(111, 193, 129, 0.88) 100%);
 font-family: "Josefin Sans";
+position: relative;
+top: 180px;
 }
 nav a{
     text-decoration: none;
@@ -105,18 +109,24 @@ video{
     padding-left: 100px;
 }
 #team{
+    
     width: 250px;
     height: 150px;
     flex-shrink: 0;
     padding-left: 180px;
+
+
 }
-#footertext{
+#team img{
+    border-radius: 30%;
+}
+.footertext{
     width: 1440px;
     height: auto;
-
-
+    position: relative;
+    bottom: 50px;
 }
-h1{
+h2{
     text-align: center;
     color: white;
 }
@@ -136,4 +146,5 @@ position: relative;
     align-items: center; 
     height: 100vh;
 }
+
 
