@@ -32,10 +32,12 @@ width: fit-content;
 
 }
 
-#Index{
-
- 
+#Index img{
+right: 300px;
+width: 200px;
+ bottom: 50px;
 }
+
 
 footer{
     width: 1920px;
@@ -133,12 +135,5 @@ position: relative;
     justify-content: center; 
     align-items: center; 
     height: 100vh;
-}
-.social{
-    display: block;
-    justify-content: left;
-    flex-shrink: 0;
-    width: 60px;
-    height: 60px;
 }
 
