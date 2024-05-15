@@ -34,11 +34,6 @@ width: fit-content;
 
 }
 
-#Index{
-
- 
-}
-
 footer{
     width: 1920px;
 height: 329px;
@@ -46,7 +41,7 @@ flex-shrink: 0;
 background: linear-gradient(0deg, rgba(230, 255, 148, 0.88) 92.9%, rgba(111, 193, 129, 0.88) 100%);
 font-family: "Josefin Sans";
 position: relative;
-top: 140px;
+top: 180px;
 }
 nav a{
     text-decoration: none;
@@ -121,6 +116,8 @@ video{
 .footertext{
     width: 1440px;
     height: auto;
+    position: relative;
+    bottom: 50px;
 }
 h2{
     text-align: center;
@@ -143,14 +140,17 @@ position: relative;
     height: 100vh;
 }
 .social{
-    display: block;
-    justify-content: left;
+    display: flex;
     flex-shrink: 0;
-    width: 60px;
+    width: 130px;
     height: 60px;
     position: relative;
-    top: 140px;
-    left: 10px;
+    top: 250px;
+    left: 450px;
+}
+.social img{
+margin: 0 80px;
+border-radius: 20%;
 }
 .about{
     color: white;
@@ -161,4 +161,5 @@ left: 220px;
 top: 100px;
 
 }
+
 
