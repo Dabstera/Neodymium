@@ -134,4 +134,11 @@ position: relative;
     align-items: center; 
     height: 100vh;
 }
+.social{
+    display: block;
+    justify-content: left;
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+}
 
