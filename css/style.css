@@ -41,6 +41,15 @@ z-index: 1;
 width: fit-content;
 
 }
+#Rectangle_1:hover, header:has(#Index:hover) #Rectangle_1 {
+width: 50vw;
+
+}
+#Rectangle_2:hover, header:has(a:hover) #Rectangle_2 {
+    width: 50vw;
+ 
+    left: 40%;;
+    }
 
 #Index img{
 
