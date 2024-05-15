@@ -41,12 +41,13 @@ width: fit-content;
 #Index img{
 
 width: 200px;
+z-index: 2;
+position:fixed;
+left: 200px;
+top:-25px;
 }
 
-#index{
-    bottom: 500px;
-    right: 300px;
-}
+
 
 
 footer{
@@ -62,7 +63,7 @@ nav a{
     text-decoration: none;
     color: white;
     z-index: 2;
-    position: fixed;
+    
    
 }
 
