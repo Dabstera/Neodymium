@@ -47,6 +47,24 @@ left: 200px;
 top:-25px;
 }
 
+#merch{
+
+    z-index: 2;
+    position: fixed;
+    margin-left: 60px;
+    right: 30%;
+    top: 25px;
+    
+}
+#contact{
+    z-index: 2;
+    position: fixed;
+    margin-left: 60px;
+    right: 10%;
+    top: 25px;
+
+}
+
 
 
 
@@ -63,6 +81,14 @@ nav a{
     text-decoration: none;
     color: white;
     z-index: 2;
+
+-webkit-text-stroke-width: 1;
+-webkit-text-stroke-color: #000;
+font-family: Anton;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
     
    
 }
