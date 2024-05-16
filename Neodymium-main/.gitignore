@@ -1,0 +1,6 @@
+GXPEngine/obj
+.vs
+GXPEngine.userprefs
+GXPEngine/bin/Release
+.exe
+.pdb
