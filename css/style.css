@@ -126,6 +126,8 @@ footer p{
     width: 70%;
     align-items: flex-start;
     padding: 0 80px;
+    position: relative;
+    left: 125px;
 }
 .text_gallery{
 
@@ -137,6 +139,9 @@ footer p{
     width: 70%;
     align-items: flex-start;
     padding: 20px 80px;
+    position: relative;
+    left: 185px;
+    top: 90px;
 
     color: #FFF;
 
@@ -273,4 +278,13 @@ top: 40px;
     right: 245px;
     top: 60px;
 }
+h1{
+    position: relative;
+    left: 60px;
+}
+.contact-text{
+    position: relative;
+    left: 60px;
+}
+
 
