@@ -208,8 +208,8 @@ position: relative;
     width: 130px;
     height: 60px;
     position: relative;
-    top: 250px;
-    left: 375px;
+    top: 165px;
+    left: 525px;
 }
 .social img{
 margin: 0 80px;
@@ -242,5 +242,35 @@ p{
     top: 45px;
     left: 30px;
     text-align: left;
+}
+.footer-line {
+    
+    position: relative;  
+    font-size: 16px;
+    margin-bottom: 10px; 
+}
+
+.footer-line:nth-child(1){
+    top:20px;
+    right: 150px;
+}
+
+.footer-line:nth-child(2) {
+
+    left: 250px;
+}
+.footer-line:nth-child(3){
+    right: 235px;
+    top: 20px;
+}
+
+
+.footer-line:nth-child(4) {
+top: 40px;
+    right: 240px;
+}
+.footer-line:nth-child(5){
+    right: 245px;
+    top: 60px;
 }
 
